@@ -21,3 +21,8 @@ async def calculate_data(request: DataRequest):
 
     result = crew.run_crew(data)
     return {"data": result}
+
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
