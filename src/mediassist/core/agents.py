@@ -1,5 +1,5 @@
 from crewai import Agent
-from mediassist.utils.tools import get_tools
+from src.mediassist.utils.tools import get_tools
 from textwrap import dedent
 
 

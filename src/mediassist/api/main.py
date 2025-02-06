@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from .schemas import DataRequest
-from mediassist.core.crews import MedicalCrew
-from mediassist.utils.environment import load_env_vars
+from src.mediassist.core.crews import MedicalCrew
+from src.mediassist.utils.environment import load_env_vars
 
 load_env_vars()
 
